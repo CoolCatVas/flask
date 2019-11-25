@@ -1,0 +1,7 @@
+[2019-11-20 15:58:30 -0500] [31399] [INFO] Starting gunicorn 20.0.0
+[2019-11-20 15:58:30 -0500] [31399] [INFO] Listening at: http://127.0.0.1:12351 (31399)
+[2019-11-20 15:58:30 -0500] [31399] [INFO] Using worker: sync
+[2019-11-20 15:58:30 -0500] [31408] [INFO] Booting worker with pid: 31408
+[2019-11-20 15:58:30 -0500] [31415] [INFO] Booting worker with pid: 31415
+[2019-11-20 15:58:30 -0500] [31417] [INFO] Booting worker with pid: 31417
+[2019-11-20 15:58:30 -0500] [31428] [INFO] Booting worker with pid: 31428
