@@ -1,7 +1,24 @@
-[2019-11-20 15:58:30 -0500] [31399] [INFO] Starting gunicorn 20.0.0
-[2019-11-20 15:58:30 -0500] [31399] [INFO] Listening at: http://127.0.0.1:12351 (31399)
-[2019-11-20 15:58:30 -0500] [31399] [INFO] Using worker: sync
-[2019-11-20 15:58:30 -0500] [31408] [INFO] Booting worker with pid: 31408
-[2019-11-20 15:58:30 -0500] [31415] [INFO] Booting worker with pid: 31415
-[2019-11-20 15:58:30 -0500] [31417] [INFO] Booting worker with pid: 31417
-[2019-11-20 15:58:30 -0500] [31428] [INFO] Booting worker with pid: 31428
+[2019-11-25 20:42:04 -0500] [25354] [INFO] Worker exiting (pid: 25354)
+[2019-11-25 20:42:04 -0500] [25349] [INFO] Handling signal: term
+[2019-11-25 20:42:04 -0500] [25358] [INFO] Worker exiting (pid: 25358)
+[2019-11-25 20:42:04 -0500] [25356] [INFO] Worker exiting (pid: 25356)
+[2019-11-25 20:42:04 -0500] [25353] [INFO] Worker exiting (pid: 25353)
+[2019-11-25 20:42:05 -0500] [26212] [INFO] Starting gunicorn 20.0.0
+[2019-11-25 20:42:05 -0500] [26212] [INFO] Listening at: http://127.0.0.1:12351 (26212)
+[2019-11-25 20:42:05 -0500] [26212] [INFO] Using worker: sync
+[2019-11-25 20:42:05 -0500] [26235] [INFO] Booting worker with pid: 26235
+[2019-11-25 20:42:05 -0500] [26238] [INFO] Booting worker with pid: 26238
+[2019-11-25 20:42:05 -0500] [26242] [INFO] Booting worker with pid: 26242
+[2019-11-25 20:42:06 -0500] [26243] [INFO] Booting worker with pid: 26243
+[2019-11-25 20:42:33 -0500] [26242] [INFO] Worker exiting (pid: 26242)
+[2019-11-25 20:42:33 -0500] [26243] [INFO] Worker exiting (pid: 26243)
+[2019-11-25 20:42:33 -0500] [26212] [INFO] Handling signal: term
+[2019-11-25 20:42:33 -0500] [26238] [INFO] Worker exiting (pid: 26238)
+[2019-11-25 20:42:33 -0500] [26235] [INFO] Worker exiting (pid: 26235)
+[2019-11-25 20:42:35 -0500] [26332] [INFO] Starting gunicorn 20.0.0
+[2019-11-25 20:42:35 -0500] [26332] [INFO] Listening at: http://127.0.0.1:12351 (26332)
+[2019-11-25 20:42:35 -0500] [26332] [INFO] Using worker: sync
+[2019-11-25 20:42:35 -0500] [26336] [INFO] Booting worker with pid: 26336
+[2019-11-25 20:42:35 -0500] [26337] [INFO] Booting worker with pid: 26337
+[2019-11-25 20:42:35 -0500] [26338] [INFO] Booting worker with pid: 26338
+[2019-11-25 20:42:35 -0500] [26340] [INFO] Booting worker with pid: 26340

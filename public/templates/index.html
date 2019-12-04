@@ -1,6 +1,21 @@
 {% extends "layout.html" %}
 
 {% block body %}
-    <h1>My first site!</h1>
-    
+    <h1>Register for Dev Club</h1>
+    <form action="/register" method="post">
+        <input autocomplete="off" autofocus 
+        name="name" placeholder="Name" 
+        type="text" />
+        <select name="class">
+            <option disabled selected value="">Favorite Class</option>
+            <option value="analog electronics">Analog Electronics</option>
+            <option value="math">TJ Math</option>
+            <option value="physics">Physics</option>
+            <option value="orchestra">Orchestra</option>
+            <option value="english">English</option>
+            <option value="history">History</option>
+            <option value="robotics">Robotics</option>
+        </select>
+        <input type="submit" value="Register" />
+    </form>
 {% endblock %}
