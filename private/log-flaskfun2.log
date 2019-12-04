@@ -22,3 +22,82 @@
 [2019-11-25 20:42:35 -0500] [26337] [INFO] Booting worker with pid: 26337
 [2019-11-25 20:42:35 -0500] [26338] [INFO] Booting worker with pid: 26338
 [2019-11-25 20:42:35 -0500] [26340] [INFO] Booting worker with pid: 26340
+[2019-12-04 12:34:10 -0500] [24739] [INFO] Starting gunicorn 20.0.0
+[2019-12-04 12:34:10 -0500] [24739] [INFO] Listening at: http://127.0.0.1:12351 (24739)
+[2019-12-04 12:34:10 -0500] [24739] [INFO] Using worker: sync
+[2019-12-04 12:34:10 -0500] [24744] [INFO] Booting worker with pid: 24744
+[2019-12-04 12:34:10 -0500] [24747] [INFO] Booting worker with pid: 24747
+[2019-12-04 12:34:10 -0500] [24749] [INFO] Booting worker with pid: 24749
+[2019-12-04 12:34:10 -0500] [24750] [INFO] Booting worker with pid: 24750
+[2019-12-04 15:30:07 -0500] [8354] [INFO] Starting gunicorn 20.0.0
+[2019-12-04 15:30:07 -0500] [8354] [INFO] Listening at: http://127.0.0.1:12351 (8354)
+[2019-12-04 15:30:07 -0500] [8354] [INFO] Using worker: sync
+[2019-12-04 15:30:07 -0500] [8361] [INFO] Booting worker with pid: 8361
+[2019-12-04 15:30:07 -0500] [8362] [INFO] Booting worker with pid: 8362
+[2019-12-04 15:30:07 -0500] [8364] [INFO] Booting worker with pid: 8364
+[2019-12-04 15:30:07 -0500] [8366] [INFO] Booting worker with pid: 8366
+[2019-12-04 15:44:28 -0500] [8364] [INFO] Worker exiting (pid: 8364)
+[2019-12-04 15:44:28 -0500] [8366] [INFO] Worker exiting (pid: 8366)
+[2019-12-04 15:44:28 -0500] [8362] [INFO] Worker exiting (pid: 8362)
+[2019-12-04 15:44:28 -0500] [8354] [INFO] Handling signal: term
+[2019-12-04 15:44:28 -0500] [8361] [INFO] Worker exiting (pid: 8361)
+[2019-12-04 15:44:30 -0500] [18932] [INFO] Starting gunicorn 20.0.0
+[2019-12-04 15:44:30 -0500] [18932] [INFO] Listening at: http://127.0.0.1:12351 (18932)
+[2019-12-04 15:44:30 -0500] [18932] [INFO] Using worker: sync
+[2019-12-04 15:44:30 -0500] [18937] [INFO] Booting worker with pid: 18937
+[2019-12-04 15:44:30 -0500] [18938] [INFO] Booting worker with pid: 18938
+[2019-12-04 15:44:30 -0500] [18939] [INFO] Booting worker with pid: 18939
+[2019-12-04 15:44:30 -0500] [18942] [INFO] Booting worker with pid: 18942
+[2019-12-04 15:44:41,950] ERROR in app: Exception on /register [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/web/projects/flaskfun2/public/application.py", line 25, in register
+    server.login("coolcatvas@gmail.com", os.getenv("PASSWORD"))
+  File "/usr/lib/python3.5/smtplib.py", line 720, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib/python3.5/smtplib.py", line 637, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+[2019-12-04 15:45:28 -0500] [18942] [INFO] Worker exiting (pid: 18942)
+[2019-12-04 15:45:28 -0500] [18932] [INFO] Handling signal: term
+[2019-12-04 15:45:28 -0500] [18939] [INFO] Worker exiting (pid: 18939)
+[2019-12-04 15:45:28 -0500] [18938] [INFO] Worker exiting (pid: 18938)
+[2019-12-04 15:45:29 -0500] [19787] [INFO] Starting gunicorn 20.0.0
+[2019-12-04 15:45:29 -0500] [19787] [INFO] Listening at: http://127.0.0.1:12351 (19787)
+[2019-12-04 15:45:29 -0500] [19787] [INFO] Using worker: sync
+[2019-12-04 15:45:29 -0500] [19808] [INFO] Booting worker with pid: 19808
+[2019-12-04 15:45:29 -0500] [19809] [INFO] Booting worker with pid: 19809
+[2019-12-04 15:45:29 -0500] [19810] [INFO] Booting worker with pid: 19810
+[2019-12-04 15:45:29 -0500] [19813] [INFO] Booting worker with pid: 19813
+[2019-12-04 15:45:42,099] ERROR in app: Exception on /register [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/web/projects/flaskfun2/public/application.py", line 25, in register
+    server.login("coolcatvas@gmail.com", os.getenv("PASSWORD"))
+  File "/usr/lib/python3.5/smtplib.py", line 720, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib/python3.5/smtplib.py", line 637, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'

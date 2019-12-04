@@ -1,9 +1,8 @@
+import os
+import smtplib
 from flask import Flask, redirect, render_template, request
 
 app = Flask(__name__)
-
-#Registered students
-students = []
 
 @app.route("/")    #[user].sites.tjhsst.edu/
 def root():
@@ -16,9 +15,13 @@ def registrants():
 @app.route("/register", methods=["POST"]) #[user].sites.tjhsst.edu/register
 def register():
     name = request.form.get("name")
+    email = request.form.get("email")
     fav_class = request.form.get("class")
     if not name or not fav_class:
         return render_template("failure.html")
-    students.append("{} who likes {}".format(name, fav_class))
-    return redirect("/registrants")
-    
+    message = "You are registered!"
+    server = smtplib.SMTP("smtp.gmail.com", 587)
+    server.starttls()
+    server.login("coolcatvas@gmail.com", os.getenv("PASSWORD"))
+    server.sendmail("coolcatvas@gmail.com", email, message)
+    return render_template("success.html")
